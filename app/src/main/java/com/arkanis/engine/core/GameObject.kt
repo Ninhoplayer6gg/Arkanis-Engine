@@ -29,10 +29,6 @@ open class GameObject(
     }
 
     fun rotate(amount: Vector3) {
-        rotation = rotation + amount
-    }
-
-    fun setScale(newScale: Vector3) {
-        scale = newScale
+    rotation = rotation + amount
     }
 }
